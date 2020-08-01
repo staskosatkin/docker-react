@@ -4,18 +4,18 @@ import App from './App';
 
 test('renders learn react link', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/Hi there!!/i);
+  const linkElement = getByText(/New App in AWS/i);
   expect(linkElement).toBeInTheDocument();
 });
 
 test('renders learn react link', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/Hi there!!/i);
+  const linkElement = getByText(/New App in AWS/i);
   expect(linkElement).toBeInTheDocument();
 });
 
 test('renders learn react link', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/Hi there!!/i);
+  const linkElement = getByText(/New App in AWS/i);
   expect(linkElement).toBeInTheDocument();
 });
